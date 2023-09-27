@@ -288,3 +288,28 @@ a {
 .links a:hover {
     border-bottom: 2px solid hsla(253, 7%, 49%, 1);
 }
+
+
+/* ... (previous CSS code) ... */
+
+/* Add a media query for screens with a maximum width of 768px (typical for mobile) */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .left-div,
+    .right-div {
+        width: 100%;
+        min-width: auto;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+}
+
+/* ... (rest of your CSS code) ... */
